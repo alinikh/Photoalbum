@@ -1,0 +1,45 @@
+.gallery {
+    width:700px;
+    padding:25px 0 0;
+    margin:0 auto;
+}
+.view {
+    position: relative;
+    margin: 0 0 5px;
+}
+.big-image img {
+    display:block;
+    width: 700px;
+    height: 450px;
+}
+.prev, .next{
+    position:absolute;
+    width:40px;
+    height:40px;
+}
+.prev{
+    bottom:20px;
+    left:20px;
+    background:url(images/controls.png) no-repeat 0 0;
+}
+.next{
+    bottom:20px;
+    right:20px;
+    background:url(images/controls.png) no-repeat -48px 0;
+}
+.mini-image{
+    width:705px;
+}
+.mini-image a{
+    float:left;
+    margin:0 5px 0 0;
+}
+.mini-image a img{
+    width:167px;
+    height:80px;
+    border: 2px solid transparent;
+    display:block;
+}
+.mini-image .active img{
+    border-color:#069;
+}
